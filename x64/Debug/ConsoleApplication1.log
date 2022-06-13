@@ -1,0 +1,42 @@
+﻿  load_settings.cpp
+  save_image.cpp
+  main.cpp
+  正在生成代码...
+load_settings.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
+load_settings.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
+save_image.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
+main.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
+load_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_LoadSettings，函数 "int __cdecl load_settings(int)" (?load_settings@@YAHH@Z) 中引用了该符号
+load_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValueL，函数 "int __cdecl load_settings(int)" (?load_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueL
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueL
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_IsCapturing，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetFrameSize，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetFrame，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_SaveData，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyCount，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCount
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyName，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyName
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyRange，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyRange
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyType，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyType
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyCategory，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCategory
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyUnit，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyUnit
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValue，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValue
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValueF，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueF
+temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyBlob，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyBlob
+main.obj : error LNK2019: 无法解析的外部符号 __imp_XC_OpenCamera，函数 main 中引用了该符号
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_OpenCamera
+main.obj : error LNK2019: 无法解析的外部符号 __imp_XC_StartCapture，函数 main 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 __imp_XC_CloseCamera，函数 "int __cdecl properties(void)" (?properties@@YAHXZ) 中引用了该符号
+D:\fanyi\Ground-Satellit_Communication\gobicamera_capture\Lib\xeneth.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\fanyi\Ground-Satellit_Communication\gobicamera_capture\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 19 个无法解析的外部命令
