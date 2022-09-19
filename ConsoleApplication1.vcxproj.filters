@@ -36,9 +36,18 @@
     <ClCompile Include="choose_dir.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CameraInitialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myfunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
