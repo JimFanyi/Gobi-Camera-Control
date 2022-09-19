@@ -1,1 +1,2 @@
 D:\fanyi\Ground-Satellit_Communication\gobicamera_capture\ConsoleApplication1\Debug\gobiCameraCapture.exe
+D:\fanyi\Ground-Satellit_Communication\gobicamera_capture\gobicameracapturegit\Debug\gobiCameraCapture.exe

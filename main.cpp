@@ -24,7 +24,7 @@ int main()
     
     printf("/-----------------------打开相机连接-----------------------/\n");
     printf("Opening connection to cam://0\n");
-    printf("Opening connection to cam://0, using the first detected CameraLink transport CL0.\n\n");
+    //printf("Opening connection to cam://0, using the first detected CameraLink transport CL0.\n\n");
     printf("/---------------------------------------------------------/\n");
 
     handle = XC_OpenCamera("cam://0");

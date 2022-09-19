@@ -1,42 +1,51 @@
-﻿  load_settings.cpp
-  save_image.cpp
-  main.cpp
-  正在生成代码...
-load_settings.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+﻿E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(ConsoleApplication1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+choose_dir.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+choose_dir.obj : error LNK2019: 无法解析的外部符号 __imp_GetOpenFileNameW，函数 "char const * __cdecl choose_dir(void)" (?choose_dir@@YAPEBDXZ) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
 test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
+disp_settings.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
 load_settings.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
 save_image.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
 temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
-main.obj : error LNK2001: 无法解析的外部符号 __imp_XC_IsInitialised
-load_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_LoadSettings，函数 "int __cdecl load_settings(int)" (?load_settings@@YAHH@Z) 中引用了该符号
-load_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValueL，函数 "int __cdecl load_settings(int)" (?load_settings@@YAHH@Z) 中引用了该符号
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyCount，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCount
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCount
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyName，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyName
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyName
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyRange，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyRange
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyRange
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyType，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyType
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyType
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyCategory，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCategory
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCategory
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyUnit，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyUnit
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyUnit
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValue，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValue
+test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValue
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValueL，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+load_settings.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueL
 temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueL
 test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueL
-save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_IsCapturing，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
-save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetFrameSize，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
-save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetFrame，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
-save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_SaveData，函数 "int __cdecl save_image(int,int)" (?save_image@@YAHHH@Z) 中引用了该符号
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyCount，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
-test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCount
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyName，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
-test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyName
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyRange，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
-test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyRange
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyType，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
-test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyType
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyCategory，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
-test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyCategory
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyUnit，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
-test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyUnit
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValue，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
-test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValue
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValueF，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyValueF，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueF
 test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyValueF
-temp_read.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyBlob，函数 "long __cdecl temp_read(int)" (?temp_read@@YAJH@Z) 中引用了该符号
+disp_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetPropertyBlob，函数 "int __cdecl disp_settings(int)" (?disp_settings@@YAHH@Z) 中引用了该符号
+temp_read.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyBlob
 test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_GetPropertyBlob
+load_settings.obj : error LNK2019: 无法解析的外部符号 __imp_XC_LoadSettings，函数 "int __cdecl load_settings(int)" (?load_settings@@YAHH@Z) 中引用了该符号
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_IsCapturing，函数 "int __cdecl save_image(int,int,char const *)" (?save_image@@YAHHHPEBD@Z) 中引用了该符号
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetFrameSize，函数 "int __cdecl save_image(int,int,char const *)" (?save_image@@YAHHHPEBD@Z) 中引用了该符号
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_GetFrame，函数 "int __cdecl save_image(int,int,char const *)" (?save_image@@YAHHHPEBD@Z) 中引用了该符号
+save_image.obj : error LNK2019: 无法解析的外部符号 __imp_XC_SaveData，函数 "int __cdecl save_image(int,int,char const *)" (?save_image@@YAHHHPEBD@Z) 中引用了该符号
 main.obj : error LNK2019: 无法解析的外部符号 __imp_XC_OpenCamera，函数 main 中引用了该符号
 test.obj : error LNK2001: 无法解析的外部符号 __imp_XC_OpenCamera
 main.obj : error LNK2019: 无法解析的外部符号 __imp_XC_StartCapture，函数 main 中引用了该符号
 test.obj : error LNK2019: 无法解析的外部符号 __imp_XC_CloseCamera，函数 "int __cdecl properties(void)" (?properties@@YAHXZ) 中引用了该符号
 D:\fanyi\Ground-Satellit_Communication\gobicamera_capture\Lib\xeneth.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
-D:\fanyi\Ground-Satellit_Communication\gobicamera_capture\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 19 个无法解析的外部命令
+D:\fanyi\Ground-Satellit_Communication\gobicamera_capture\gobicameracapturegit\x64\Debug\gobiCameraCapture.exe : fatal error LNK1120: 20 个无法解析的外部命令
